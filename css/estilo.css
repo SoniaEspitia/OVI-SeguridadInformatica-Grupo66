@@ -1,0 +1,124 @@
+
+*{margin: 0px; padding: 0px;}
+
+body{
+  background: #F4AF00;
+  font-family: arial;
+}
+
+#contenedor{
+  background: #F4AF00;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header{
+  width: 100%;
+  over-flow: hidden;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  width:100%;
+  max-width: 2000px;
+  margin:auto;
+  overflow: hidden;
+}
+
+header .title{
+  color: #f2f2f2;
+  font-size: 25px;
+  line-height: 100px;
+  text-align: center;
+  height: 50px;
+  display: block;
+
+}
+
+.title h2{
+  text-align: center;
+  color: black
+}
+
+header .logo {
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+ul{
+  list-style: none;
+  float: none;
+}
+
+nav{
+  width:100%;
+  clear: both;
+}
+.menu li>a{
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  
+}
+
+.menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+
+.menu>li{
+  float: left;
+  text-align:center;
+ 
+}
+
+.menu>li>ul{
+  display: none;
+  
+}
+
+.menu>li:hover>ul {
+  display:block;
+}
+
+#contenido{
+  width: 70%;
+  height: 1100px;
+  float: left;
+  background: white;
+}
+
+article h2{
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 10px;
+  
+}
+aside{
+  width: 30%;
+  height: 1100px;
+  background: blue;
+  float: left;
+}
+
+aside h4{
+  margin-top: 20px;
+  
+}
+
+footer {
+  width: 100%;
+  background: grey; 
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+  float: left;
+}

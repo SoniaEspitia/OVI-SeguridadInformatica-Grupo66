@@ -1,0 +1,19 @@
+*{margin: 0px; padding: 0px;}
+
+body{
+	background: #ffffa;
+}
+
+header{
+	width: 100%
+	overflow:hidden;
+	background: #252932;
+	margin-bottom: 20px;
+}
+
+.wrapper {
+	with:90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+}
