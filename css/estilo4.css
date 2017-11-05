@@ -80,8 +80,7 @@ nav{
 }
 
 .menu>li>ul{
-  display: none;
-  
+  display: none; 
 }
 
 .menu>li:hover>ul {
@@ -91,7 +90,7 @@ nav{
 
 #contenido{
   width: 70%;
-  height: 2100px;
+  height: 1500px;
   float: left;
   background: #A9BCF5;
 }
@@ -105,7 +104,7 @@ article h2{
 
 aside{
   width: 30%;
-  height: 2100px;
+  height: 1500px;
   background: blue;
   float: left;
 }
